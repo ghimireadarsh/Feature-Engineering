@@ -32,3 +32,11 @@ _Objective: Predict total number of customers who will use a certain discount co
 * Total number of discountable items sold
 * __Number of discountable items sold the previous month__
 * __Number of customers who viewed ads about item__
+
+
+5. Are these features knowable at prediction time?
+_Objective: Predict whether a credit card transaction is fraudulent_
+* __Whether cardholder has purchased these items at this store before__ _Yes - but you have to define the time window very carefully because point-of-sale data may have a delay in getting to your data analytics warehouse._
+* __Whether item is new at store (and can not have been purchased before)__
+* __Category of item being purchased__
+* __Online or in-person purchase__
