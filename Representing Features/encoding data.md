@@ -29,4 +29,11 @@ These features are called sparse column.
 )
 ```
 
+### Discretizing Floating point values into bins
+``` python
+	lat = tf.feature_column.numeric_column('latitude')
+	dlat = tf.feature_column.bucketized_column(
+			lat, boundaries = np.arange(32, 42, 1).tolist()
 
+)
+```
