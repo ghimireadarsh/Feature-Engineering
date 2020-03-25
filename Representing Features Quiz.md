@@ -6,14 +6,17 @@
 _________________________________________________________________________________________
 
 2. Which of these offers the best way to encode categorical data that is already indexed, i.e. has integers in [0-N]?
-* Ans :``` python 
+* Ans :
+``` python 
 		tf.feature_column.categorical_column_with_identity
 ```
-* ```python
+* 
+```python
 		tf.feature_column.categorical_column_with_vocabulary_list
 ```
-* ```python
-tf.feature_column.categorical_column_with_hash_bucket
+* 
+```python
+		tf.feature_column.categorical_column_with_hash_bucket
 ```
 ______________________________________________________________________________________________
 
