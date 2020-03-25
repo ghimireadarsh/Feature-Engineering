@@ -55,4 +55,21 @@ _These are categorical - not numeric, continue watching the video for a debrief_
 _These are categorical - not numeric_
 _______________________________________________________________________________________
 
+7. Which of these will it be difficult to get enough examples for?
+_Objective: Predict customer discount coupon usage_
+* Percent discount of coupon (20%, 30%, etc.)
+* Date that promotional offer starts
+* Number of customers who opened advertising email
+* __All of these we should be able enough examples for__
+___________________________________________________________________________________________
+
+8. Which of these will it be relatively easy to get enough examples for?
+_Objective: Predict point-of-sale credit card fraudulent activity_
+* __Whether cardholder has purchased these items at this store before__
+* __Distance between cardholder address and store__
+* __Category of item being purchased__
+* __Online or in-person purchase__
+
+
+
 
