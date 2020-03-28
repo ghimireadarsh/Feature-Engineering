@@ -93,7 +93,7 @@ What does the third transform do? _____________________
 
 
 ### Execute the pipeline locally
-####Step 1
+#### Step 1
 Execute locally:
 ``` shell
 	python3 grep.py
